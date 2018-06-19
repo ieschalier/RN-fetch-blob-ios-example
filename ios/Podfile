@@ -42,6 +42,9 @@ target 'rnfetchblob' do
     :podspec => "../node_modules/react-native/third-party-podspecs/glog.podspec",
     :inhibit_warnings => true
 
+  pod 'react-native-fetch-blob',
+    :path => '../node_modules/react-native-fetch-blob'
+
 
   post_install do |installer|
     installer.pods_project.main_group.tab_width = '2';
