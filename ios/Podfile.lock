@@ -104,6 +104,8 @@ PODS:
     - React/Core (= 0.55.2)
   - react-native-fetch-blob (0.10.6):
     - React/Core
+  - react-native-pdf (3.0.16):
+    - React
   - React/ART (0.55.2):
     - React/Core
   - React/Core (0.55.2):
@@ -163,6 +165,7 @@ DEPENDENCIES:
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - react-native-fetch-blob (from `../node_modules/react-native-fetch-blob`)
+  - react-native-pdf (from `../node_modules/react-native-pdf`)
   - React/ART (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
@@ -192,6 +195,8 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native
   react-native-fetch-blob:
     :path: ../node_modules/react-native-fetch-blob
+  react-native-pdf:
+    :path: ../node_modules/react-native-pdf
   yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
@@ -232,8 +237,9 @@ SPEC CHECKSUMS:
   lottie-ios: 836cdbba92f62f3c6a00e37a4ce485321fe317cf
   React: 977e1cdf18a3047a35d321b34ffb678d79d19076
   react-native-fetch-blob: 63394b1d7b0781547b3e4463b3195790177b1222
+  react-native-pdf: 10fe8cc6094d10b5f2fb176e895d179a021d174a
   yoga: a23273df0088bf7f2bb7e5d7b00044ea57a2a54a
 
-PODFILE CHECKSUM: ac34870699ca52848fd3885bcff9c30b9685a35d
+PODFILE CHECKSUM: 47c2f02a26e2114e3cf5ba5e1b91c1b8bcfafed6
 
 COCOAPODS: 1.4.0
